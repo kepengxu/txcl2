@@ -1,3 +1,23 @@
+## 图像处理实验8
+
+### 霍夫变换检测圆
+
+原图
+
+![原图](5.png)
+
+梯度图
+
+![原图](5_dis.jpg)
+
+检测结果图
+
+![原图](5_circle.jpg)
+
+
+code:
+```python
+
 # -*- coding: utf-8 -*-
 import cv2
 
@@ -40,3 +60,5 @@ cv2.imwrite('5_circle.jpg', img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+```
