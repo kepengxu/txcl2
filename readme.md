@@ -15,15 +15,19 @@ y_kernel=np.array([[-1,-2,-1],
 最终梯度值使用平方和完成计算。
 
 原图
+
 ![原图](1image.jpg)
 
 x方向梯度图
+
 ![x_dis](1x_dis.jpg)
 
 y方向梯度图
+
 ![y_dis](1y_dis.jpg)
 
 最终梯度阈值分割图
+
 ![dis](1can.jpg)
 
 dis=ximage*ximage+yimage*yimage
